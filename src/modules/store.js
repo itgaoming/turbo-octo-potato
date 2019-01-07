@@ -21,7 +21,6 @@ const store=new Vuex.Store({
     },
     actions:{
         add({commit},txtObj){
-           
             commit("addList",txtObj);
         },
         update({commit},payload){

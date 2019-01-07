@@ -19,7 +19,6 @@ export default {
         },
         ...mapActions(["add"])
     },
-    
 }
 </script>
 <style scoped>

@@ -13,11 +13,8 @@ import inp from './input.vue';
 import list from './list.vue';
 import {mapState} from 'vuex';
 export default {
-    
     data(){
-        return {
-            
-        }
+        return {}
     },
     components:{inp,list},
     computed: {
@@ -36,8 +33,6 @@ export default {
 </script>
 <style scoped>
     div{
-        
-        
         border:1px solid #000
     }
 </style>
